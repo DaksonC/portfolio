@@ -9,7 +9,7 @@ export function Header(){
                 <h3>#frontend #developer 💻☕🚀 </h3>
                 <div className="menu">
                     <div className="repos">
-                        <a href="http://">
+                        <a href="/repos">
                             <div className="icon_github">
                                 <BsGithub />
                             </div>
@@ -17,7 +17,7 @@ export function Header(){
                         </a>
                     </div>  
                     <div className="posts">
-                        <a href="http://">
+                        <a href="/posts">
                             <div className="icon_linkedin">
                                 <BsLinkedin />
                             </div>
