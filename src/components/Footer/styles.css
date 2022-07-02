@@ -22,10 +22,12 @@ div .icon_email{
 h5{
     color: white;
     margin-left: 1%; 
+    background-color: #16181a;
 }
 div .icon_whatsapp{
     font-size:20px;
     position: absolute;
     left: 65%;
     top: 2%;
+    background-color: #16181a;
 }

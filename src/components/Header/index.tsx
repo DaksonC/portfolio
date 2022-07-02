@@ -1,6 +1,4 @@
-import { SiJavascript, SiCss3 } from 'react-icons/si'
-import { FaReact } from 'react-icons/fa'
-import { AiFillHtml5 } from 'react-icons/ai'
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import './styles.css'
 
 export function Header(){
@@ -8,17 +6,24 @@ export function Header(){
         <>
             <div className="header">
                 <h1>Dakson Chaves Cruz</h1>
-                <div className="icon_js">
-                    <SiJavascript />
-                </div>
-                <div className="icon_react">
-                    <FaReact />
-                </div>
-                <div className="icon_html">
-                    <AiFillHtml5 />
-                </div>
-                <div className="icon_css">
-                    <SiCss3 />
+                <h3>#frontend #developer 💻☕🚀 </h3>
+                <div className="menu">
+                    <div className="repos">
+                        <a href="http://">
+                            <div className="icon_github">
+                                <BsGithub />
+                            </div>
+                            <p>#repos</p>
+                        </a>
+                    </div>  
+                    <div className="posts">
+                        <a href="http://">
+                            <div className="icon_linkedin">
+                                <BsLinkedin />
+                            </div>
+                            <p>#posts</p>
+                        </a>
+                    </div>              
                 </div>
                 <div className="avatar">
                     <img src='./avatar.png' alt="avatar" />

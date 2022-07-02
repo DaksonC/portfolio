@@ -5,40 +5,95 @@
   color: white;
 }
 
-div .icon_github{
-  position: absolute;
-  left: 40%;
-  top: 20%;
-  z-index: 1;
-}
-div .icon_linkedin{
-  position: absolute;
-  left: 55%;
-  top: 20%;
-  z-index: 2;
-}
-div .icon_github,
-div .icon_linkedin{
+
+
+.icon_css,
+.icon_html,
+.icon_js,
+.icon_react,
+.icon_vue{
   font-size: 50px;
+  animation: float 6s ease-in-out infinite;
 }
 
 .App-logo{
   margin-top: 12%;
   pointer-events: none;
-  z-index: 4;
+  z-index: 100;
 }
+
+.icon_vue{
+  color: rgb(14, 102, 14);
+  display: block;
+  position: absolute;
+  top: 21%;
+  left: 81%;
+  font-size: 45px;
+  z-index: 7;
+}
+.icon_react{
+  color: rgb(34, 10, 247);
+  display: block;
+  position: absolute;
+  top: 21%;
+  left: 66%;
+  font-size: 45px;
+  z-index: 7;
+}
+
+.icon_js{
+  color: yellow;
+  display: block;
+  position: absolute;
+  top: 21%;
+  left: 51%;
+  font-size: 30px;
+  z-index: 6;
+}
+
+.icon_css{
+  color: rgb(7, 11, 252);
+  display: block;
+  position: absolute;
+  top: 21%;
+  left: 36%;
+  font-size: 33px;
+  z-index: 9;
+}
+
+.icon_html{
+  color: rgb(252, 56, 7);
+  display: block;
+  position: absolute;
+  top: 21%;
+  left: 21%;
+  font-size: 39px;
+  z-index: 8;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 2s alternate-reverse;
+    animation: App-logo-spin infinite 5s alternate-reverse;
   }
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(-40deg);
+    width: 40%;
   }
   to {
+    width: 160%;
     transform: rotate(40deg);
   }
+}
+
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-20px)
+	}
 }
