@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Animation } from './components/Animation';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Animation />
+      <div className="icon_github">
+        <BsGithub/>
+      </div>
+      <div className="icon_linkedin">
+        <BsLinkedin />
+      </div>
+    
+       <div className="App-logo">
+        <img src="./dk.svg" alt="logo"/>
+      </div>
+      <Footer />
     </div>
   );
 }

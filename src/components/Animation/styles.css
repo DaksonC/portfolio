@@ -1,0 +1,37 @@
+.img{
+    position: absolute;
+    height: 100000px;
+    width: 100000px;
+    left: -8000px;
+    top: -8500px;
+    animation-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    animation-name: float;
+    animation-iteration-count: infinite;
+    z-index: 5;
+}
+@keyframes float{
+    0%{
+        transform: translate(0px, 0px)
+    }
+    100%{
+        transform: translate(8000px, 4000px);
+    }
+}
+#img1{
+    opacity: .25;
+    background: url('http://image.ibb.co/jcTvpv/dust1.jpg');
+    background-repeat: repeat;
+    animation-duration: 600s;
+}
+#img2{
+    opacity: .25;
+    background: url('http://image.ibb.co/jcTvpv/dust1.jpg');
+    background-repeat: repeat;
+    animation-duration: 450s;
+}
+#img3{
+    opacity: .25;
+    background: url('http://image.ibb.co/jcTvpv/dust1.jpg');
+    background-repeat: repeat;
+    animation-duration: 450s;
+}

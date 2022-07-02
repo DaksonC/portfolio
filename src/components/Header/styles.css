@@ -1,0 +1,65 @@
+div .header{
+    height: 16%;
+    position: relative;
+    background-color: #16181a;
+    border-bottom: 1px solid #262726;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+    z-index: 4;
+}
+div .header h1{
+    font-size: 55px;
+    color: white;
+    margin-top: 1%;
+    background-color: #16181a;
+}
+div .avatar img{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #16181a;
+    box-shadow: 3px 3px 3px rgba(248, 245, 245, 0.1);
+}
+
+div .icon_js{
+    color: yellow;
+    background: #16181a;
+    display: block;
+    position: absolute;
+    top: 38%;
+    left: 78%;
+    font-size: 25px;
+}
+
+div .icon_react{
+    color: rgb(34, 10, 247);
+    background: #16181a;
+    display: block;
+    position: absolute;
+    top: 38%;
+    left: 80%;
+    font-size: 25px;
+}
+
+div .icon_html{
+    color: rgb(252, 56, 7);
+    background: #16181a;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    font-size: 33px;
+}
+
+div .icon_css{
+    color: rgb(7, 11, 252);
+    background: #16181a;
+    display: block;
+    position: absolute;
+    top: 39%;
+    left: 73%;
+    font-size: 27px;
+}
