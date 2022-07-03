@@ -25,7 +25,7 @@ function Home() {
         </div>
       </div>
       <div className="portfolio">
-        <h1>#portfólio_</h1>
+        <img src="./portfolio.png" alt="portfolio" />
       </div>
       <div className="logo">
         <div className="App-logo">

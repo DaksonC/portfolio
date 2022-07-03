@@ -3,23 +3,35 @@ html{
 }
 div.container_repo{
     min-height: 100vh;
-    background-color: #16181a;
 }
 ul{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 680px));
     gap: 10px;
-    background-color: #16181a;
+    text-align: center;
+    justify-content: center;
 }
-div.card_repo,
-div.card_repo li h2,
-div.card_repo li p,
-div.card_repo li a{
-    background-color: #1c1d20;
+.card_repo h2{
+    padding: 2%;
+}
+.card_repo p{
+    padding: 0.5%;
 }
 div.card_repo{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 13px;
     padding: 25px;
     margin: 10px;
+}
+.portfolio_repo{
+  position: fixed;
+  top: 20%;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio_repo img{
+  width: 100%;
+  height: 100%;
 }

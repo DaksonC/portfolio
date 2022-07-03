@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { format, parseISO } from "date-fns"
 import './styles.css'
 
 interface IRepository{
@@ -6,8 +7,9 @@ interface IRepository{
     name: string;
     description: string;
     html_url: string;
-    language: string;
     created_at: string;
+    pushed_at: string;
+    language?: string;
 }
 
 export function ReposGitHub(){
@@ -21,6 +23,9 @@ export function ReposGitHub(){
 
     return(
         <div className="container_repo">
+            <div className="portfolio_repo">
+                <img src="./portfolio.png" alt="portfolio" />
+            </div>
             <ul>
                 {repo.map(repository => {
                     return (
@@ -29,9 +34,25 @@ export function ReposGitHub(){
                                 <h2>{repository.name}</h2>
                             </li>
                             <li key={repository.id}>
-                                <p>{repository.created_at}</p>
+                                <p>
+                                    Data de criação:
+                                    {format(parseISO(repository.created_at), ' HH:mm - dd/MM/yyyy')}
+                                </p>
                             </li>
                             <li key={repository.id}>
+                                <p>
+                                Úlitima atualização:
+                                    {format(parseISO(repository.pushed_at), ' HH:mm - dd/MM/yyyy')}
+                                </p>
+                            </li>
+                            <li key={repository.id}>
+                                <p>
+                                Linguagem: {'\n'}
+                                    {repository.language}
+                                </p>
+                            </li>
+                            <li key={repository.id}>
+                                <p>Descrição:</p>
                                 <p>{repository.description}</p>
                                 <a href={repository.html_url} target="_blank" rel="noreferrer">
                                     Saiba mais...
