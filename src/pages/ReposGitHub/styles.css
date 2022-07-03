@@ -1,0 +1,25 @@
+html{
+    overflow: auto;
+}
+div.container_repo{
+    min-height: 100vh;
+    background-color: #16181a;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+    background-color: #16181a;
+}
+div.card_repo,
+div.card_repo li h2,
+div.card_repo li p,
+div.card_repo li a{
+    background-color: #1c1d20;
+}
+div.card_repo{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 13px;
+    padding: 25px;
+    margin: 10px;
+}
