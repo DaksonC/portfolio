@@ -23,7 +23,8 @@
 .icon_html,
 .icon_js,
 .icon_react,
-.icon_vue{
+.icon_vue,
+.icon_git{
   font-size: 50px;
   padding: 0px 0px 0px 75px;
   animation: float 6s ease-in-out infinite;
@@ -37,6 +38,11 @@
   justify-content: center;
 }
 
+.icon_git{
+  color: rgb(243, 48, 13);
+  display: block;
+  z-index: 10;
+}
 .icon_vue{
   color: rgb(14, 102, 14);
   display: block;
