@@ -1,8 +1,22 @@
 .App {
   width: 100vw;
   height: 100vh;
-  text-align: center;
   color: white;
+}
+
+.icons{
+  display: flex;
+  margin-top: 15px;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .icon_css,
@@ -11,68 +25,54 @@
 .icon_react,
 .icon_vue{
   font-size: 50px;
+  padding: 0px 0px 0px 75px;
   animation: float 6s ease-in-out infinite;
 }
 
-.App-logo{
-  position: absolute;
-  top: 40%;
-  left: 35%;
+.App-logo {
+  width: 35vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon_vue{
   color: rgb(14, 102, 14);
   display: block;
-  position: absolute;
-  top: 21%;
-  left: 81%;
-  font-size: 45px;
   z-index: 7;
 }
 .icon_react{
   color: rgb(34, 10, 247);
   display: block;
-  position: absolute;
-  top: 21%;
-  left: 66%;
-  font-size: 45px;
   z-index: 7;
 }
 
 .icon_js{
   color: yellow;
   display: block;
-  position: absolute;
-  top: 21%;
-  left: 51%;
-  font-size: 35px;
   z-index: 6;
 }
 
 .icon_css{
   color: rgb(7, 11, 252);
   display: block;
-  position: absolute;
-  top: 21%;
-  left: 36%;
-  font-size: 33px;
   z-index: 9;
 }
 
 .icon_html{
   color: rgb(252, 56, 7);
   display: block;
-  position: absolute;
-  top: 21%;
-  left: 21%;
-  font-size: 39px;
   z-index: 8;
 }
 
+.portfolio h1{
+  color: #0c0c0c2c;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 9s alternate-reverse;
+    animation: App-logo-spin infinite 9s linear;
   }
 }
 

@@ -1,4 +1,5 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { ImHome3 } from 'react-icons/im'
 import './styles.css'
 
 export function Header(){
@@ -8,6 +9,14 @@ export function Header(){
                 <h1>Dakson Chaves Cruz</h1>
                 <h3>#frontend #developer 💻☕🚀 </h3>
                 <div className="menu">
+                    <div className="home">
+                        <a href="/">
+                            <div className="icon_home">
+                                <ImHome3 />
+                            </div>
+                            <p>#home</p>
+                        </a>
+                    </div>              
                     <div className="repos">
                         <a href="/repos">
                             <div className="icon_github">
@@ -23,13 +32,12 @@ export function Header(){
                             </div>
                             <p>#posts</p>
                         </a>
-                    </div>              
+                    </div>
                 </div>
                 <div className="avatar">
                     <img src='./avatar.png' alt="avatar" />
                 </div>
             </div>
-
         </>
     )
 }

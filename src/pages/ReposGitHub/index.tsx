@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { Header } from "../../components/Header";
 import './styles.css'
 
 interface IRepository{
@@ -22,10 +21,6 @@ export function ReposGitHub(){
 
     return(
         <div className="container_repo">
-            <div >
-                <a href="/">Home</a> 
-            </div>
-            <Header />
             <ul>
                 {repo.map(repository => {
                     return (
@@ -40,7 +35,7 @@ export function ReposGitHub(){
                                 </a>
                             </li>
                             <li key={repository.id}>
-                                <p>{repository.created_at}</p>
+                                <p>Criado em: {repository.created_at}</p>
                             </li>
                         </div>
                     )

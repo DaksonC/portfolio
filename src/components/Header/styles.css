@@ -2,28 +2,22 @@ a{
     text-decoration: none;
     color: white;
 }
-p{
-    background-color: #16181a;
-}
 div.header{
-    height: 16%;
+    height: 100px;
     position: relative;
-    background-color: #16181a;
     border-bottom: 1px solid #262726;
     border-radius: 0px 0px 30px 30px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
-    z-index: 4;
 }
 div.header h1{
     font-size: 35px;
     color: white;
     margin-top: 1%;
-    margin-left: -20%;
-    background-color: #16181a;
+    margin-left: 29%;
 }
 div.header h3{
-    margin-left: -24%;
-    background-color: #16181a;
+    margin-left: 29%;
+    color: white;
 }
 div.avatar img{
     position: absolute;
@@ -41,8 +35,8 @@ div.menu{
     position: absolute;
     top: 0%;
     left: 65%;
-    background-color: #16181a;
 }
+.home,
 .repos,
 .posts{
     display: flex;
@@ -50,24 +44,25 @@ div.menu{
     height: 99%;
     align-items: center;
     justify-content: center;
-    background-color: #16181a;
+    text-align: center;
 
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
+.home:hover,
 .repos:hover,
 .posts:hover{
     border-bottom: 1px solid #faf9f9;
 }
 
+.icon_home,
 .icon_linkedin,
 .icon_github{
     font-size: 30px;
-    background-color: #16181a;
-
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
+.icon_home:hover,
 .icon_github:hover,
 .icon_linkedin:hover{
     font-size: 35px;
