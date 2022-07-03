@@ -29,13 +29,13 @@ export function ReposGitHub(){
                                 <h2>{repository.name}</h2>
                             </li>
                             <li key={repository.id}>
+                                <p>{repository.created_at}</p>
+                            </li>
+                            <li key={repository.id}>
                                 <p>{repository.description}</p>
                                 <a href={repository.html_url} target="_blank" rel="noreferrer">
                                     Saiba mais...
                                 </a>
-                            </li>
-                            <li key={repository.id}>
-                                <p>Criado em: {repository.created_at}</p>
                             </li>
                         </div>
                     )
