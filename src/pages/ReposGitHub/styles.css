@@ -42,3 +42,6 @@ div.card_repo p,
 div.card_repo a{
     background-color: #28292c;
 }
+div.card_repo hr{
+    opacity: 0.1;
+}

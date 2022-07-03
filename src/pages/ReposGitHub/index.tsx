@@ -53,6 +53,7 @@ export function ReposGitHub(){
                             </li>
                             <li key={repository.id}>
                                 <p>Descrição:</p>
+                                <hr />
                                 <p>{repository.description}</p>
                                 <a href={repository.html_url} target="_blank" rel="noreferrer">
                                     Saiba mais...
