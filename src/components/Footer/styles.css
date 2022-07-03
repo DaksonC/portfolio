@@ -31,5 +31,9 @@
 .link_posts{
     margin-left: 35px;
 }
-
+.link_home a:hover,
+.link_repos a:hover,
+.link_posts a:hover{
+    color: #0a0a0a;
+}
 
