@@ -18,8 +18,8 @@ ul{
     padding: 0.5%;
 }
 div.card_repo{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 13px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
     padding: 25px;
     margin: 10px;
 }
@@ -34,4 +34,11 @@ div.card_repo{
 .portfolio_repo img{
   width: 100%;
   height: 100%;
+}
+div.card_repo,
+div.card_repo li,
+div.card_repo h2,
+div.card_repo p, 
+div.card_repo a{
+    background-color: #28292c;
 }
