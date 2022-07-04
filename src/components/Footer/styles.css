@@ -9,6 +9,7 @@
 }
 .contato p{
     margin: 10px;
+    color: #80F88D;
 }
 .email_{
     display: flex;
@@ -34,6 +35,6 @@
 .link_home a:hover,
 .link_repos a:hover,
 .link_posts a:hover{
-    color: #0a0a0a;
+    color: #80F88D;
 }
 

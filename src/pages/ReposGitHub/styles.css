@@ -23,6 +23,11 @@ div.card_repo{
     border-radius: 10px;
     padding: 25px;
     margin: 10px;
+
+    transition: transform ease-in-out 100ms;
+}
+div.card_repo:hover{
+    transform: scale(1.08);
 }
 .portfolio_repo{
   position: fixed;
@@ -45,4 +50,10 @@ div.card_repo a{
 }
 div.card_repo hr{
     opacity: 0.1;
+}
+div.card_repo h2{
+    color: white;
+}
+div.card_repo p{
+    color: #80F88D;
 }

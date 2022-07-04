@@ -10,6 +10,7 @@ div.header{
     border-bottom: 1px solid #262726;
     border-radius: 0px 0px 30px 30px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+    z-index: 15;
 }
 div.header h1{
     font-size: 35px;
@@ -48,25 +49,31 @@ div.menu{
     justify-content: center;
     text-align: center;
     
-    transition: all 0.3s;
 }
 
 .home:hover,
 .repos:hover,
 .posts:hover{
-    border-bottom: 1px solid #faf9f9;
+    border-bottom: 1px solid #80F88D;
 }
 
 .icon_home,
 .icon_linkedin,
 .icon_github{
+    
     font-size: 30px;
     transition: all 0.3s;
+    
+    transition: transform 0.1s ease-in-out;
 }
 
 .icon_home:hover,
 .icon_github:hover,
 .icon_linkedin:hover{
-    font-size: 35px;
+    color: #80F88D;
+    transform: scale(1.08);
+}
+div a p:hover{
+    color: #80F88D;
 }
 
