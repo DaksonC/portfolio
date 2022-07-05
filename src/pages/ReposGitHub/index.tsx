@@ -36,25 +36,41 @@ export function ReposGitHub(){
                             <li key={repository.id}>
                                 <p>
                                     Data de criação:
-                                    {format(parseISO(repository.created_at), ' HH:mm - dd/MM/yyyy')}
+                                    {
+                                        format(parseISO(repository.created_at), 
+                                        ' HH:mm - dd/MM/yyyy')
+                                    }
                                 </p>
                             </li>
                             <li key={repository.id}>
                                 <p>
-                                Úlitima atualização:
-                                    {format(parseISO(repository.pushed_at), ' HH:mm - dd/MM/yyyy')}
+                                    Úlitima atualização:
+                                    {
+                                        format(parseISO(repository.pushed_at), 
+                                        ' HH:mm - dd/MM/yyyy')
+                                    }
                                 </p>
                             </li>
                             <li key={repository.id}>
                                 <p>
-                                Linguagem: {'\n'}
-                                    {repository.language}
+                                    Linguagem: {'\n'}
+                                    {
+                                        repository.language ?
+                                        repository.language : 
+                                        'O GitHub não identificou'
+                                    }
                                 </p>
                             </li>
                             <li key={repository.id}>
                                 <p>Descrição:</p>
                                 <hr />
-                                <p>{repository.description}</p>
+                                <p>
+                                    {
+                                        repository.description ? 
+                                        repository.description : 
+                                        'A descrição desse projeto está em desenvolvimento. Em breve será carregada.'
+                                    }
+                                </p>
                                 <a href={repository.html_url} target="_blank" rel="noreferrer">
                                     Saiba mais...
                                 </a>
