@@ -1,0 +1,45 @@
+div .container_article{
+    width: 100vw;
+    height: 100vh;
+}
+ul .posts_article{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 680px));
+    gap: 10px;
+
+}
+div.card_article{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    
+    transition: transform ease-in-out 100ms;
+}
+div.card_article:hover{
+    transform: scale(1.08);
+}
+div.card_article img{
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 0;
+    top: 12%;
+    border-radius: 10px;
+}
+div.card_article li{
+    text-align: left;
+}
+div.resumo_article{
+    padding: 5%;
+}
+div.card_article h4,
+div.card_article p{
+    color: #80F88D;
+}
+div.link_article{
+    cursor: pointer;
+    margin-top: 10px;
+}
+

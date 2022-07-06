@@ -23,8 +23,8 @@ export function Footer(){
                     <div className="link_repos">
                         <a href="/repos">#repos</a>
                     </div>
-                    <div className="link_posts">
-                        <a href="/posts">#posts</a>
+                    <div className="link_article_footer">
+                        <a href="/article">#article</a>
                     </div>
                 </div>
             </div>

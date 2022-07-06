@@ -1,6 +1,7 @@
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
-import { ImHome3 } from 'react-icons/im'
-import './styles.css'
+import { BsGithub } from 'react-icons/bs';
+import { ImHome3 } from 'react-icons/im';
+import { MdArticle } from 'react-icons/md';
+import './styles.css';
 
 export function Header(){
     return(
@@ -25,12 +26,12 @@ export function Header(){
                             <p>#repos</p>
                         </a>
                     </div>  
-                    <div className="posts">
-                        <a href="/posts">
+                    <div className="article">
+                        <a href="/article">
                             <div className="icon_linkedin">
-                                <BsLinkedin />
+                                <MdArticle />
                             </div>
-                            <p>#posts</p>
+                            <p>#article</p>
                         </a>
                     </div>
                 </div>

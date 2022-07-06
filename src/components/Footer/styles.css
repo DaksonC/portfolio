@@ -29,12 +29,12 @@
 }
 .link_home,
 .link_repos,
-.link_posts{
+.link_article_footer{
     margin-left: 35px;
 }
 .link_home a:hover,
 .link_repos a:hover,
-.link_posts a:hover{
+.link_article a:hover{
     color: #80F88D;
 }
 
