@@ -34,7 +34,7 @@
 }
 .link_home a:hover,
 .link_repos a:hover,
-.link_article a:hover{
+.link_article_footer a:hover{
     color: #80F88D;
 }
 

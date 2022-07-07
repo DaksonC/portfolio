@@ -29,11 +29,11 @@ export function ReposGitHub(){
             <ul>
                 {repo.map(repository => {
                     return (
-                        <div className="card_repo">
-                            <li key={repository.id}>
+                        <div key={repository.id} className="card_repo">
+                            <li >
                                 <h2>{repository.name}</h2>
                             </li>
-                            <li key={repository.id}>
+                            <li >
                                 <p>
                                     Data de criação:
                                     {
@@ -42,7 +42,7 @@ export function ReposGitHub(){
                                     }
                                 </p>
                             </li>
-                            <li key={repository.id}>
+                            <li >
                                 <p>
                                     Úlitima atualização:
                                     {
@@ -51,17 +51,17 @@ export function ReposGitHub(){
                                     }
                                 </p>
                             </li>
-                            <li key={repository.id}>
+                            <li >
                                 <p>
                                     Linguagem: {'\n'}
                                     {
                                         repository.language ?
                                         repository.language : 
-                                        'O GitHub não identificou'
+                                        'Html'
                                     }
                                 </p>
                             </li>
-                            <li key={repository.id}>
+                            <li >
                                 <p>Descrição:</p>
                                 <hr />
                                 <p>
