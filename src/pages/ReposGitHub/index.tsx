@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { format, parseISO } from "date-fns"
-import './styles.css'
+import { RepoContaine } from "./styles";
 
 interface IRepository{
     id: number;
@@ -22,7 +22,7 @@ export function ReposGitHub(){
     }, [])
 
     return(
-        <div className="container_repo">
+        <RepoContaine>
             <ul>
                 {repo.map(repository => {
                     return (
@@ -76,6 +76,6 @@ export function ReposGitHub(){
                     )
                 })}
             </ul>
-        </div>
+        </RepoContaine>
     )
 }

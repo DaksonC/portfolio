@@ -1,12 +1,15 @@
-import './styles.css'
+import { ArticleContainer } from './styles'
+
 
 export function Article(){
     return(
-        <div className="container_article">
+        <ArticleContainer>
             <ul className="posts_article">
                 <div className="card_article">
                     <li>
-                        <img src="1653915741721.jpg" alt="Artigo Sidelab" />
+                        <div className="article-image">
+                            <img src="1653915741721.jpg" alt="Artigo Sidelab" />
+                        </div>
                     </li> 
                     <div className="resumo_article">
 
@@ -20,6 +23,6 @@ export function Article(){
                     </div>
                 </div>
             </ul>            
-        </div>
+        </ArticleContainer>
     )
 }

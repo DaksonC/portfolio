@@ -25,7 +25,7 @@
 .icon_react,
 .icon_vue,
 .icon_git{
-  font-size: 50px;
+  font-size: 160%;
   padding: 0px 0px 0px 75px;
   animation: float infinite 5s linear;
 }

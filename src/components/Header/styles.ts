@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const HeaderContainer = styled.section`
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 15%;
     border-bottom: 1px solid #262726;
     border-radius: 0px 0px 30px 30px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
@@ -16,7 +16,7 @@ export const HeaderContainer = styled.section`
     }
 
     h1{
-        font-size: 35px;
+        font-size: 200%;
         color: white;
         margin-top: 1%;
         margin-left: 29%;

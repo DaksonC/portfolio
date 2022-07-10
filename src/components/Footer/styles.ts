@@ -11,29 +11,28 @@ export const FooterContainer = styled.section`
     box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.4);
 
     .contato p{
-        margin: 10px;
+        margin: 1%;
         color: #80F88D;
     }
     .email-content{
         display: flex;
-        margin: 10px;
     }
     .icon_email{
         color: white;
-        letter-spacing: 5px;
     }
     .email{
         color: white;
     }
 
     .link_menu{
-        margin-left: 135px;
+        width: 20%;
+        text-align: center;
+        margin-left: 15%;
     }
     `
 export const NavLinkFooter = styled(NavLink)`
-    text-decoration: none;
     color: white;
-    margin-left: 10px;
+    padding: 3%;
 
     &:hover{
         color: #80F88D;
