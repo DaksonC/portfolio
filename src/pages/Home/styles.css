@@ -27,11 +27,14 @@
 .icon_git{
   font-size: 50px;
   padding: 0px 0px 0px 75px;
-  animation: float 6s ease-in-out infinite;
+  animation: float infinite 5s linear;
 }
 
+.image{
+  animation: float infinite 4s linear;
+}
 .App-logo {
-  width: 35vw;
+  width: 20vw;
   height: 50vh;
   display: flex;
   align-items: center;
@@ -66,20 +69,9 @@
   display: block;
 }
 
-.portfolio{
-  position: absolute;
-  top: 30%;
-  width: 300px;
-  height: 300px;
-}
-.portfolio img{
-  width: 100%;
-  height: 100%;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 9s linear;
+    animation: App-logo-spin infinite 35s both;
   }
 }
 
@@ -100,3 +92,4 @@
 		transform:translatey(-20px)
 	}
 }
+

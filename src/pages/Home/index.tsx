@@ -28,12 +28,9 @@ function Home() {
             <FaGitAlt />
         </div>
       </div>
-      <div className="portfolio">
-        <img src="./portfolio.png" alt="portfolio" />
-      </div>
       <div className="logo">
         <div className="App-logo">
-          <img src="./dk.svg" alt="logo"/>
+          <img className="image" src="/astronaut.png" alt="logo"/>
         </div>
       </div>
     </div>

@@ -1,0 +1,14 @@
+div .info{
+    position: fixed;
+    top: 79%;
+    left: 95%;
+    cursor: pointer;
+}
+button.info {
+    border: none;
+    color: #ffffff4b;
+    font-size: 30px;
+}
+button.info:hover{
+    color: #80F88D;
+}

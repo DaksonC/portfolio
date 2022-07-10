@@ -23,9 +23,6 @@ export function ReposGitHub(){
 
     return(
         <div className="container_repo">
-            <div className="portfolio_repo">
-                <img src="./portfolio.png" alt="portfolio" />
-            </div>
             <ul>
                 {repo.map(repository => {
                     return (
