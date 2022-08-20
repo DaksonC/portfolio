@@ -59,7 +59,7 @@ export function ReposGitHub(){
                                 </p>
                             </li>
                             <li >
-                                <p>Descrição:</p>
+                                <p><span>Descrição:</span></p>
                                 <hr />
                                 <p>
                                     {
@@ -69,7 +69,7 @@ export function ReposGitHub(){
                                     }
                                 </p>
                                 <a href={repository.html_url} target="_blank" rel="noreferrer">
-                                    Saiba mais...
+                                    <p><span>Saiba mais...</span></p>
                                 </a>
                             </li>
                         </div>

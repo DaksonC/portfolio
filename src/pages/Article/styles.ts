@@ -31,7 +31,7 @@ export const ArticleContainer = styled.section`
     .article-image img{
         width: 100%;
         height: 100%;
-        border-radius: 2%;
+        margin-left: 5%;
     }
     .card_article li{
         text-align: left;
@@ -46,6 +46,10 @@ export const ArticleContainer = styled.section`
     .link_article{
         cursor: pointer;
         margin-top: 10px;
+    }
+
+    @media (max-width: 480px){
+        margin-top: 65%;
     }
 
 `

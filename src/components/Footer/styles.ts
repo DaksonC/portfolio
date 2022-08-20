@@ -23,14 +23,21 @@ export const FooterContainer = styled.section`
     .email{
         color: white;
     }
-
+    
     .link_menu{
         width: 20%;
         text-align: center;
         margin-left: 15%;
     }
-    `
+    @media (max-width: 480px){
+        border-radius: 0;
+        .link_menu{
+            width: 0;
+        }
+    }
+`
 export const NavLinkFooter = styled(NavLink)`
+    text-decoration: none;
     color: white;
     padding: 3%;
 

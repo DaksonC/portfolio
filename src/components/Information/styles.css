@@ -1,14 +1,21 @@
-div .info{
+div .info_container{
     position: fixed;
     top: 79%;
-    left: 95%;
+    left: 88%;
     cursor: pointer;
 }
 button.info {
     border: none;
-    color: #ffffff4b;
+    color: #ffffff1f;
     font-size: 30px;
 }
 button.info:hover{
     color: #80F88D;
+}
+@media (max-width: 480px){
+    div .info_container{
+        display: flex;
+        position: relative;
+        top: 45px;
+    }
 }

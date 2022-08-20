@@ -42,7 +42,38 @@ export const HeaderContainer = styled.section`
         top: 0%;
         left: 65%;
     }
-`
+    @media (max-width: 768px) {
+        height: 38%;
+        display: block;
+        text-align: center;
+        border-radius:0;  
+
+        .menu{
+            display: block;
+            position: absolute;
+            top: 0%;
+            left: 79%;
+        } 
+        img{
+            position: absolute;
+            top: 15%;
+            left: 10%;
+        } 
+        h1{
+            position: absolute;
+            top: 65%;
+            left: -20%;
+            font-size: 100%;
+        }   
+        h3{
+            position: absolute;
+            top: 77%;
+            left: -20%;
+            font-size: 90%;
+        }
+        
+    }
+    `
 export const NavLinkHeader = styled(NavLink)`
     width: 100%;
     height: 98%;
@@ -52,7 +83,7 @@ export const NavLinkHeader = styled(NavLink)`
     .icon_linkedin,
     .icon_github{
         margin-top: 18%;
-        font-size: 150%;
+        font-size: 200%;
     }
     &.active{
         color: #80F88D;

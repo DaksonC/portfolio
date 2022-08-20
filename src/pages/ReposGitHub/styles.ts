@@ -46,4 +46,11 @@ export const RepoContaine = styled.section`
     .card_repo a{
         color: white;
     }
+    .card_repo p span{
+        color: #c9c9c9;
+    }
+
+    @media (max-width: 480px){
+        margin-top: 70%;
+    }
 `

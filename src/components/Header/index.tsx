@@ -14,19 +14,16 @@ export function Header(){
                     <div className="icon_home">
                         <ImHome3 />
                     </div>
-                    <p>#home</p>
                 </NavLinkHeader>              
                 <NavLinkHeader to='/repos'>
                     <div className="icon_github">
                         <BsGithub />
                     </div>
-                    <p>#repos</p>
                 </NavLinkHeader>  
                 <NavLinkHeader to='/article'>
                     <div className="icon_linkedin">
                         <MdArticle />
                     </div>
-                    <p>#article</p>
                 </NavLinkHeader>
             </div>
             <div className="avatar">

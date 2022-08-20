@@ -25,8 +25,10 @@
 .icon_react,
 .icon_vue,
 .icon_git{
-  font-size: 160%;
-  padding: 0px 0px 0px 75px;
+  display: block;
+  justify-content: center;
+  font-size: 168%;
+  padding: 0 5% 0 5%;
   animation: float infinite 5s linear;
 }
 
@@ -43,30 +45,24 @@
 
 .icon_git{
   color: rgb(243, 48, 13);
-  display: block;
 }
 .icon_vue{
   color: rgb(14, 102, 14);
-  display: block;
 }
 .icon_react{
   color: rgb(34, 10, 247);
-  display: block;
 }
 
 .icon_js{
   color: yellow;
-  display: block;
 }
 
 .icon_css{
   color: rgb(7, 11, 252);
-  display: block;
 }
 
 .icon_html{
   color: rgb(252, 56, 7);
-  display: block;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -93,3 +89,12 @@
 	}
 }
 
+ @media (max-width: 480px) {
+  .icons{
+    width: 100%;
+    height: 20%;
+    margin-top: 60%;
+    font-size: 100%;
+    padding: 0;
+  }
+ }
