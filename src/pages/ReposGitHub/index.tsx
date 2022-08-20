@@ -16,7 +16,7 @@ export function ReposGitHub(){
     const [ repo, setRepo ] = useState<IRepository[]>([])
 
     useEffect(() => {
-        fetch('https://api.github.com/users/DaksonC/repos')
+        fetch('https://api.github.com/users/DaksonC/repos?sort=created')
         .then(response => response.json())
         .then(data => setRepo(data))
     }, [])
@@ -51,11 +51,13 @@ export function ReposGitHub(){
                             <li >
                                 <p>
                                     Linguagem: {'\n'}
-                                    {
-                                        repository.language ?
-                                        repository.language : 
-                                        'Html'
-                                    }
+                                    <span id='language'>
+                                        {
+                                            repository.language ?
+                                            repository.language : 
+                                            'Html'
+                                        }
+                                    </span>
                                 </p>
                             </li>
                             <li >

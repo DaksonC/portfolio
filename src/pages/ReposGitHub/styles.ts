@@ -50,6 +50,13 @@ export const RepoContaine = styled.section`
         color: #c9c9c9;
     }
 
+    #language{
+        color: #F88D80;
+        border: 1px solid #F88D80;
+        border-radius: 10px;
+        padding: 0  18px 2px;
+        margin: 5px;
+    }
     @media (max-width: 480px){
         margin-top: 70%;
     }

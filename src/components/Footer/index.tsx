@@ -1,31 +1,37 @@
-import { AiTwotoneMail } from 'react-icons/ai'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaWhatsappSquare } from 'react-icons/fa'
 import { FooterContainer, NavLinkFooter } from './styles'
 
 export function Footer(){
     return(
-        <FooterContainer>
-            <div className="contato">
-                <p>Contato:</p>
-                <div className="email-content">
-                    <div className="icon_email">
-                        <AiTwotoneMail />
-                    </div>
-                    <div className="email">
-                        <h5>daksonc@gmail.com </h5>
-                    </div>
+        <>
+            <FooterContainer>
+                <div className="contato-icons">
+                    <a href="https://www.linkedin.com/in/dakson-cruz-3b22b7244/" target="_blank" rel="noreferrer">
+                        <div className="linkedin">
+                            <BsLinkedin  />
+                        </div>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5514991760454" target="_blank" rel="noreferrer">
+                        <div className="whatsapp">
+                            <FaWhatsappSquare />
+                        </div>
+                    </a>
                 </div>
-            </div>
-            <div className="link_menu">
-                <NavLinkFooter to='/'>
-                    #home
-                </NavLinkFooter>
-                <NavLinkFooter to='/repos'>
-                    #repos
-                </NavLinkFooter>
-                <NavLinkFooter to='/article'>
-                    #article
-                </NavLinkFooter>
-            </div>
-        </FooterContainer>
+                <div className="link_menu">
+                    <NavLinkFooter to='/'>
+                        #home
+                    </NavLinkFooter>
+                    <NavLinkFooter to='/repos'>
+                        #repos
+                    </NavLinkFooter>
+                    <NavLinkFooter to='/article'>
+                        #article
+                    </NavLinkFooter>
+                    <NavLinkFooter to=''>
+                    </NavLinkFooter>
+                </div>
+            </FooterContainer>
+        </>
     )
 }

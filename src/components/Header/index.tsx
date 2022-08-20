@@ -27,7 +27,7 @@ export function Header(){
                 </NavLinkHeader>
             </div>
             <div className="avatar">
-                <img src='./avatar.png' alt="avatar" />
+                <img src='./avatar.jpeg' alt="avatar" />
             </div>
         </HeaderContainer>
     

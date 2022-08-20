@@ -10,25 +10,32 @@ export const FooterContainer = styled.section`
     border-radius: 30px 30px 0px 0px;
     box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.4);
 
-    .contato p{
-        margin: 1%;
-        color: #80F88D;
-    }
-    .email-content{
-        display: flex;
-    }
-    .icon_email{
-        color: white;
-    }
-    .email{
-        color: white;
-    }
     
+    .contato-icons{
+        display: flex;
+        align-items: center;
+    }
+    .linkedin, .whatsapp{
+        color: #80F88D;
+        font-size: 1.9rem;
+        margin: 5px;
+
+        transition: all 0.5s;
+
+        &:hover{
+            transform: rotate(180deg);
+        }
+    }
+    .whatsapp{
+        font-size: 2rem;
+    }
+
     .link_menu{
         width: 20%;
         text-align: center;
         margin-left: 15%;
     }
+
     @media (max-width: 480px){
         border-radius: 0;
         .link_menu{
@@ -44,4 +51,5 @@ export const NavLinkFooter = styled(NavLink)`
     &:hover{
         color: #80F88D;
     }
+    
 `
