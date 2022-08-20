@@ -16,7 +16,7 @@ export function ReposGitHub(){
     const [ repo, setRepo ] = useState<IRepository[]>([])
 
     useEffect(() => {
-        fetch('https://api.github.com/users/DaksonC/repos?sort=created')
+        fetch('https://api.github.com/users/DaksonC/repos?sort=pushed')
         .then(response => response.json())
         .then(data => setRepo(data))
     }, [])
@@ -60,6 +60,7 @@ export function ReposGitHub(){
                                     </span>
                                 </p>
                             </li>
+                            <br />
                             <li >
                                 <p><span>Descrição:</span></p>
                                 <hr />

@@ -42,12 +42,13 @@ export const RepoContaine = styled.section`
     }
     .card_repo p{
         color: #80F88D;
+        padding-bottom: 5px;
     }
     .card_repo a{
         color: white;
     }
     .card_repo p span{
-        color: #c9c9c9;
+        color: #c9c9;
     }
 
     #language{
