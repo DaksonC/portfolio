@@ -39,13 +39,16 @@ export const ArticleContainer = styled.section`
     .resumo_article{
         padding: 5%;
     }
-    .card_article h4,
+    .card_article h2,
     .card_article p{
         color: #80F88D;
     }
     .link_article{
         cursor: pointer;
         margin-top: 10px;
+        span{
+            color: #c9c9;
+        }
     }
 
     @media (max-width: 480px){
