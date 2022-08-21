@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const HeaderContainer = styled.section`
     position: fixed;
     width: 100%;
-    height: 15%;
+    height: 100px;
     border-bottom: 1px solid #262726;
     border-radius: 0px 0px 30px 30px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
@@ -16,13 +16,14 @@ export const HeaderContainer = styled.section`
     }
 
     h1{
-        font-size: 200%;
+        font-size: 30px;
         color: white;
-        margin-top: 1%;
-        margin-left: 29%;
+        margin-top: 10px;
+        margin-left: 27%;
     }
     h3{
-        margin-left: 29%;
+        font-size: 20px;
+        margin-left: 27%;
         color: white;
     }
     img{
@@ -42,7 +43,7 @@ export const HeaderContainer = styled.section`
         top: 0%;
         left: 65%;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 668px) {
         height: 38%;
         display: block;
         text-align: center;
@@ -61,7 +62,7 @@ export const HeaderContainer = styled.section`
         } 
         h1{
             position: absolute;
-            top: 65%;
+            top: 60%;
             left: -20%;
             font-size: 100%;
         }   
@@ -73,7 +74,18 @@ export const HeaderContainer = styled.section`
         }
         
     }
-    `
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+            h1{
+                font-size: 22px;
+                margin-left: 32%;
+                margin-top: 32px;
+            }
+            h3{
+                font-size: 12px;
+                margin-left: 32%;
+            }
+        }
+`
 export const NavLinkHeader = styled(NavLink)`
     width: 100%;
     height: 98%;

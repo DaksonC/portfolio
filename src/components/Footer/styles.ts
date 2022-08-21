@@ -51,5 +51,8 @@ export const NavLinkFooter = styled(NavLink)`
     &:hover{
         color: #80F88D;
     }
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        font-size: 0.8rem;
+    }
     
 `
