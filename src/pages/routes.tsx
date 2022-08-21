@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import { ReposGitHub } from './ReposGitHub'
 import { Article } from './Article'
@@ -8,7 +8,7 @@ import { Information } from '../components/Information';
 
 export default function MyRoute(){
     return(
-        <BrowserRouter>
+        <>
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -17,6 +17,6 @@ export default function MyRoute(){
             </Routes> 
             <Information />
             <Footer />       
-        </BrowserRouter>
+        </>
     )
 }
