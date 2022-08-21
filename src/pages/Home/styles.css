@@ -23,7 +23,7 @@
 .icon_html,
 .icon_js,
 .icon_react,
-.icon_vue,
+.icon_solidity,
 .icon_git{
   display: block;
   justify-content: center;
@@ -46,8 +46,8 @@
 .icon_git{
   color: rgb(243, 48, 13);
 }
-.icon_vue{
-  color: rgb(14, 102, 14);
+.icon_solidity{
+  color: rgb(92, 89, 89);
 }
 .icon_react{
   color: rgb(34, 10, 247);

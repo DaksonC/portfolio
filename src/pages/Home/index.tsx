@@ -1,7 +1,6 @@
-import { SiJavascript, SiCss3 } from 'react-icons/si';
+import { SiJavascript, SiCss3, SiSolidity } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import { AiFillHtml5 } from 'react-icons/ai';
-import { RiVuejsFill } from 'react-icons/ri';
 import { FaGitAlt } from 'react-icons/fa';
 import './styles.css';
 
@@ -18,8 +17,8 @@ function Home() {
         <div className="icon_js">
             <SiJavascript />
         </div>
-        <div className="icon_vue">
-          <RiVuejsFill />
+        <div className="icon_solidity">
+          <SiSolidity />
         </div>
         <div className="icon_react">
             <FaReact />
