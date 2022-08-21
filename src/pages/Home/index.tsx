@@ -29,7 +29,7 @@ function Home() {
       </div>
       <div className="logo">
         <div className="App-logo">
-          <img className="image" src="/public/astronaut.png" alt="logo"/>
+          <img className="image" src="/astronaut.png" alt="logo"/>
         </div>
       </div>
     </div>
