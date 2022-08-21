@@ -1,7 +1,7 @@
-## #portólio_dakson 
+# portólio-dakson 
 
 <div align="center">
-<img src="./public/home.png" />
+<img src="https://user-images.githubusercontent.com/81385265/185803144-24e24545-a6f0-482c-9ab9-dd8d08e840bf.png" />
 </div>
 
 # Getting Started with Create React App
