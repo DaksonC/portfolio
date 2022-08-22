@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { RiInformationLine } from "react-icons/ri";
 import { Modal } from "../Modal";
-import { MinCurriculo } from "./MiniCurriculo";
+import { MinCurriculo } from "./MinCurriculo";
+
 import './styles.css';
 
 export function Information(){

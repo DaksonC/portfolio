@@ -1,4 +1,5 @@
-import { ArticleContainer } from './styles'
+import { ArticleContainer } from "./styles";
+
 
 
 export function Article(){
