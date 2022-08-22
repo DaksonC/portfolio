@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
-import { ReposGitHub } from './Repos'
+import { ReposGitHub } from './repos'
 import { Article } from './Article'
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
