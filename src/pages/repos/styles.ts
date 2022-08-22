@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const RepoContaine = styled.section`
+export const RepoContainer = styled.section`
     margin-top: 9%;
     ul{
         display: grid;
