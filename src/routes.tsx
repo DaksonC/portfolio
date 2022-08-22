@@ -1,10 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
-import Home from './Home'
-import { ReposGitHub } from './Repos'
-import { Article } from './Article'
-import { Header } from '../components/Header';
-import { Footer } from '../components/Footer';
-import { Information } from '../components/Information';
+import { Footer } from './components/Footer'
+import { Header } from './components/Header'
+import { Information } from './components/Information'
+import { Article } from './pages/Article'
+import Home from './pages/Home'
+import { ReposGitHub } from './pages/repos'
+
 
 export default function MyRoute(){
     return(
